@@ -1,5 +1,9 @@
+//Import React & React-DOM to be able to manipulate the Page
 import React from "react";
 import ReactDOM from "react-dom";
+//---------------------------------------------------------------------
+
+//Import App Component
 import App from "./components/App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
